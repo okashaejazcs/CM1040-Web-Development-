@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistan's Digital Leap | 2013 - 2019</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Pakistan's Digital Leap</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="era1.html">06–12</a></li>
+                <li><a href="era2.html" class="active">13–19</a></li>
+                <li><a href="era3.html">20–26</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h1>The Mobile Network Explosion (2013–2019)</h1>
+            <p>The 3G/4G spectrum leap bypassing traditional landlines entirely.</p>
+        </section>
+
+        <section class="timeline-container" id="timeline-container">
+            </section>
+
+        <template id="timeline-template">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-title"></h3>
+                    <img src="" alt="" class="timeline-image">
+                    <p class="timeline-desc"></p>
+                </div>
+            </div>
+        </template>
+    </main>
+
+    <button id="backToTopBtn" title="Go to top">TOP</button>
+
+    <footer>
+        <p>&copy; 2026 - CM1040 Web Development Coursework</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Fetching the Era 2 JSON data
+            loadTimelineData('data/era2-13-19.json');
+        });
+    </script>
+</body>
+</html>

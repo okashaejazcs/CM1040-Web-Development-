@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistan's Digital Leap | 2006 - 2012</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Pakistan's Digital Leap</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="era1.html" class="active">06–12</a></li>
+                <li><a href="era2.html">13–19</a></li>
+                <li><a href="era3.html">20–26</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h1>The Dawn of True Broadband (2006–2012)</h1>
+            <p>The massive shift from legacy dial-up to high-speed physical networks.</p>
+        </section>
+
+        <section class="timeline-container" id="timeline-container">
+            </section>
+
+        <template id="timeline-template">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-title"></h3> <img src="" alt="" class="timeline-image">
+                    <p class="timeline-desc"></p>
+                </div>
+            </div>
+        </template>
+        
+    </main>
+
+    <button id="backToTopBtn" title="Go to top">TOP</button>
+
+    <footer>
+        <p>&copy; 2026 - CM1040 Web Development Coursework</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    
+    <script>
+        // Once the DOM is loaded, fetch the data for Era 1
+        document.addEventListener('DOMContentLoaded', () => {
+            // We will define this function in main.js next!
+            loadTimelineData('data/era1-06-12.json');
+        });
+    </script>
+</body>
+</html>

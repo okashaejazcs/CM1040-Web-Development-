@@ -1,0 +1,20 @@
+[
+  {
+    "year": "2020",
+    "title": "FTTH Expansion",
+    "description": "Independent ISPs began aggressive expansions of Fiber to the Home (FTTH) networks across major urban centers, significantly boosting bandwidth.",
+    "image": "images/ftth-2020.jpg"
+  },
+  {
+    "year": "2021",
+    "title": "RAAST Digital Payments",
+    "description": "The launch of a nationwide instant digital payment system relied entirely on the newly established, secure mobile internet infrastructure.",
+    "image": "images/raast-2021.jpg"
+  },
+  {
+    "year": "2026",
+    "title": "140M+ Mobile Subscribers",
+    "description": "Mobile broadband penetration crossed monumental milestones, cementing ultra-low latency high-speed internet as the backbone of the modern digital ecosystem.",
+    "image": "images/subscribers-2026.jpg"
+  }
+]

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistan's Digital Leap | 2020 - 2026</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Pakistan's Digital Leap</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="era1.html">06–12</a></li>
+                <li><a href="era2.html">13–19</a></li>
+                <li><a href="era3.html" class="active">20–26</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h1>Fiber Optics & The Modern Ecosystem (2020–2026)</h1>
+            <p>Ultra-low latency infrastructure and the fully digital economy.</p>
+        </section>
+
+        <section class="timeline-container" id="timeline-container">
+            </section>
+
+        <template id="timeline-template">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="timeline-title"></h3>
+                    <img src="" alt="" class="timeline-image">
+                    <p class="timeline-desc"></p>
+                </div>
+            </div>
+        </template>
+    </main>
+
+    <button id="backToTopBtn" title="Go to top">TOP</button>
+
+    <footer>
+        <p>&copy; 2026 - CM1040 Web Development Coursework</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Fetching the Era 3 JSON data
+            loadTimelineData('data/era3-20-26.json');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+  {
+    "year": "2006",
+    "title": "PTCL Privatization",
+    "description": "The privatization of national telecom providers and the launch of early FTTH services began the massive shift away from dial-up.",
+    "image": "images/ptcl-2006.jpg"
+  },
+  {
+    "year": "2007",
+    "title": "DSL Rollout",
+    "description": "Widespread DSL deployment significantly dropped subscription prices, transforming broadband from a luxury into a household utility.",
+    "image": "images/dsl-2007.jpg"
+  },
+  {
+    "year": "2011",
+    "title": "100 Mbps & EVO",
+    "description": "The introduction of 100 Mbps fiber and EVO 3G USB devices gave consumers their first taste of high-speed portable internet.",
+    "image": "images/evo-2011.jpg"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "year": "2014",
+    "title": "3G/4G PTA Auction",
+    "description": "A landmark spectrum auction officially launched 3G and 4G services across major cellular networks, fundamentally changing national connectivity.",
+    "image": "images/auction-2014.jpg"
+  },
+  {
+    "year": "2015",
+    "title": "The Mobile Surge",
+    "description": "Within a year of the auction, millions of new wireless subscribers bypassed traditional landlines entirely, sparking a mobile commerce boom.",
+    "image": "images/mobile-2015.jpg"
+  },
+  {
+    "year": "2019",
+    "title": "First 5G Tests",
+    "description": "Zong successfully conducted the very first 5G service tests in the country, signaling the next massive leap in wireless infrastructure.",
+    "image": "images/5g-test-2019.jpg"
+  }
+]
